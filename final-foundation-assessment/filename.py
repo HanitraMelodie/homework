@@ -10,7 +10,7 @@ def sum_up(sum_number):
             for j in range(1 ,8):
                 number2=my_number[j]
                 sum_number=number1 + number2
-                if(sum_number == target_sum):
+                if sum_number == target_sum :
                  my_list=[]
                  my_list.append(number1)
                  my_list.append(number2)
